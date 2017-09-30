@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-// import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'
+import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'
 
 
 class Welcome extends React.Component {
   render() {
     return (
-      <h1>Welcome Page Content</h1>
+    	<div>
+      		<h1>Welcome to SportApp!</h1>
+      		<h2>Click on the button bellow to see all sports!</h2>
+        	<Link to="activities">Sports</Link>
+        </div>
     )
   }
 }
