@@ -1,13 +1,18 @@
 ## SportApp – React JS App, that shows information for different sports by fancy way.
 
 Installation steps:
+
 1.git clone https://github.com/mpopova/SportApp.git 
-2. cd SportApp
-3. npm install
+
+2.cd SportApp
+
+3.npm install
+
 4.npm start
+
 5.open http://localhost:3000/ 
 
-NOTE: !!!In development!!!
+## NOTE: !!!In development!!!
 
 
 ***
