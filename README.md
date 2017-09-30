@@ -7,6 +7,8 @@ Installation steps:
 4.npm start
 5.open http://localhost:3000/ 
 
+NOTE: !!!In development!!!
+
 
 ***
 
