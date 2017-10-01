@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'
+import { Router, Route, browserHistory, IndexRoute  } from 'react-router'
 import './index.css';
 import AppRoute from './route';
 import Welcome from './welcome/welcome';

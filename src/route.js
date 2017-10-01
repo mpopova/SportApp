@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'
+import { Link } from 'react-router'
 
 
 class AppRoute extends React.Component {
