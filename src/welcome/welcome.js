@@ -8,7 +8,7 @@ class Welcome extends React.Component {
     	<div>
       		<h1>Welcome to SportApp!</h1>
       		<h2>Click on the button bellow to see all sports!</h2>
-        	<Link to="activities">Sports</Link>
+        	<div id="activity-btn"><Link to="activities">Sports</Link></div>
         </div>
     )
   }
