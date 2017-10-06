@@ -6,10 +6,17 @@ class AppRoute extends React.Component {
   render() {
     return(
       <div>
-      <ul className="navigation">
-      <li><Link to="welcome">Welcome</Link></li>
-      <li><Link to="activities">Sports</Link></li>
-      </ul>
+      <div id="header">
+        <div className="wrapper">
+          <div className="logo"><Link to="welcome"></Link></div>
+            <div id="navigation">
+              <ul>
+                <li><Link to="welcome">Home</Link></li>
+                <li><Link to="activities">Sports</Link></li>
+              </ul>
+            </div>
+          </div>
+      </div>
 
       {this.props.children}
       </div>

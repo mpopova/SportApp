@@ -25,10 +25,14 @@ class Activities extends React.Component {
   render() {
     return (
     <div>
-      		<h1>{this.state.text}</h1>
-      		<div onClick={() => this.onClick('tenis')}>Tenis</div>
-          <div onClick={() => this.onClick('football')}>Football</div>
-          <div onClick={() => this.onClick('volleyball')}>Volleyball</div>
+        <div className="content">
+          <div className="wrapper">
+          		<div className="btn" onClick={() => this.onClick('tenis')}><span>Tenis</span></div>
+              <div className="btn" onClick={() => this.onClick('football')}><span>Football</span></div>
+              <div className="btn" onClick={() => this.onClick('volleyball')}><span>Volleyball</span></div>
+              <div id="changable-area">{this.state.text}</div>
+          </div>
+        </div>
    	 </div>
     )
   }
